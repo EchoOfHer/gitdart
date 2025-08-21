@@ -3,8 +3,13 @@ void sum(int one, int two) {
   int sum = one + two;
   print('Sum = $sum');
 }
-
+void HereQ(){
+for (int i = 0; i <= 5; i++){
+    print("Here Q");
+  } 
+}
 void main() {
   sum(1, 2);
-  print("I Here Q");
+  HereQ();
+
 }
